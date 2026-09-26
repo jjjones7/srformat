@@ -63,6 +63,12 @@ record.ease            # 2.5
 record.rating_label   # "good"
 ```
 
+## Tests
+
+```
+python -m unittest discover -s tests
+```
+
 ## What it does not do yet
 
 It normalizes one record at a time - it doesn't dedupe cards, merge
